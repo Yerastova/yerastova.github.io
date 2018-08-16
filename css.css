@@ -1,20 +1,27 @@
+		/*Изменение расположения блоков */
 		.flex {display: flex;}
-		.container { width: 1200px; margin: auto;
-		font-family: Calibri; }
-		.curriculum { height: 80px;
-			background-color: #4b5a68;
+		/*Размеры страницы */
+		.container { width: 1200px; 
+					margin: auto;
+					font-family: Calibri; }
+		/*Формат верхнего блока */
+		.curriculum { 	height: 80px;
+						background-color: #4b5a68;
 						font-size: 50px;
 						color: white;
 						text-align: center;
 						margin: 0;
 						padding-top: 10px;
 						padding-bottom: 10px;}
+		/*Серый градиент левого блока*/
 		.gradient {background: linear-gradient(to right, #3f4244, #767c7f );
 					 width: 325px;
 					color: white;
 					font-size: large;}
+		/*Формат правого блока */
 		.white { width: 870px; color: #0d60a3;
 			margin-left: 10px;}
+			/*Формат изображения*/
 		.image {width: 150px;
 				height: 150px;
 				padding: 35px;
@@ -23,6 +30,7 @@
 				margin-left: 45px;
 				background-image: url(floyd.jpg);
 				border-radius: 35%;}
+			/*Формат Имени */
 		.floyd {color: white; 
 				font-size: xx-large;
 				text-align: left;
@@ -30,6 +38,7 @@
 				margin-left: 15px;
 				margin-right: 35px;
 				border-bottom: 3px solid yellow;}
+		/*Подчеркнутые слова*/
 		.underline {text-decoration: underline;
 					color: white;
 					font-size: xx-large;
@@ -37,25 +46,33 @@
 					text-align: center;
 					margin-top: 30px;
 					margin-bottom: 30px;}
+		/*Отступы цветных блоков*/
 		div.indent div {margin-left: 10px;
 						border-radius: 5px;
 						text-align: center;}
+		/*Оранжевый блок*/
 		.orange {background-color: orange;
 				margin-right: 100px;}
+		/*Типа голубой блок */
 		.blue {background-color: #1373c1;
 				margin-right: 150px;}
+		/*Зеленый блок*/
 		.green {background-color: green;
 				margin-right: 30px;}
+		/*Список */
 		.list { color: white; }
 		a: hover {color: #6eacef;}
+		/*Формат абзаца*/
 		p { margin-top:  5px;
 		margin-bottom:  5px; }
+	/*Нижняя граница белых блоков */
 	.blueUnderline {
 		font-size: 30px;
 		margin-top: 20px;
 		margin-right: 20px;
 		padding-bottom: 20px;
 		border-bottom: 3px solid #6da8d6;}
+		/*Формат оглавлений */
 		h2 { margin-top: 10px; 
 			margin-bottom: 10px;
 			font-size: 30px;}
