@@ -1,11 +1,11 @@
 		/*Изменение расположения блоков */
-		.flex {display: flex;}
+		#flex {display: flex;}
 		/*Размеры страницы */
 		.container { width: 1200px; 
 					margin: auto;
 					font-family: Calibri; }
 		/*Формат верхнего блока */
-		.curriculum { 	height: 80px;
+		#curriculum { 	height: 80px;
 						background-color: #4b5a68;
 						font-size: 50px;
 						color: white;
@@ -14,12 +14,12 @@
 						padding-top: 10px;
 						padding-bottom: 10px;}
 		/*Серый градиент левого блока*/
-		.gradient {background: linear-gradient(to right, #3f4244, #767c7f );
+		#gradient {background: linear-gradient(to right, #3f4244, #767c7f );
 					 width: 325px;
 					color: white;
 					font-size: large;}
 		/*Формат правого блока */
-		.white { width: 870px; color: #0d60a3;
+		#white { width: 870px; color: #0d60a3;
 			margin-left: 10px;}
 			/*Формат изображения*/
 		.image {width: 150px;
@@ -61,7 +61,7 @@
 				margin-right: 30px;}
 		/*Список */
 		.list { color: white; }
-		a: hover {color: #6eacef;}
+		a {color: #6eacef;}
 		/*Формат абзаца*/
 		p { margin-top:  5px;
 		margin-bottom:  5px; }
@@ -73,6 +73,5 @@
 		padding-bottom: 20px;
 		border-bottom: 3px solid #6da8d6;}
 		/*Формат оглавлений */
-		h2 { margin-top: 10px; 
-			margin-bottom: 10px;
-			font-size: 30px;}
+		h3 { margin-top: 7px; 
+			margin-bottom: 7px;}
